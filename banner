@@ -2,7 +2,7 @@
 
 # Dynamic Motd
 # Robert Tulke, rt@debian.sh
-
+# Modify by Peyman Goli -- Aban - 1398
 ## only root can start
 if [ $(whoami) != root ]; then
     #cat /etc/motd
