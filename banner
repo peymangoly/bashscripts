@@ -170,11 +170,9 @@ STORAGE=$(df -h |sed -e 's/^File.*$/\x1b[0;37m&\x1b[1;32m/' | sed -e 's/^Datei.*
 ## Main Menu
 echo -e "
 ${F2}                              
-${F2}               / ___|  ___ _ __   
-${F2}               \___ \ / _ \ '_ \ /
-${F2}                ___) |  __/ |_) | 
-${F2}               |           .__/ \
-${F2}                          |_|     
+${F2}               /    
+${F2}               
+${F2}                    
 
 					
 			            Good $TIME $USER
